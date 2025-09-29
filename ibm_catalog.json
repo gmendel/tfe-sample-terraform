@@ -1,0 +1,55 @@
+{
+	"products": [
+		{
+			"label": "tfe-sample-terraform",
+			"name": "tfe-sample-terraform",
+			"product_kind": "solution",
+			"tags": [
+				"enterprise_app"
+			],
+			"keywords": [],
+			"short_description": "",
+			"long_description": "",
+			"offering_docs_url": "https://github.com/gmendel/tfe-sample-terraform",
+			"offering_icon_url": "https://globalcatalog.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/solution.svg",
+			"features": [],
+			"flavors": [
+				{
+					"label": "",
+					"name": "",
+					"working_directory": ".",
+					"licenses": [],
+					"compliance": {},
+					"iam_permissions": [],
+					"architecture": {
+						"features": [],
+						"diagrams": [
+							{
+								"diagram": {
+									"url": "https://globalcatalog.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/arch-diagram-placeholder.drawio.svg",
+									"caption": "Placeholder architecture diagram",
+									"type": "image/svg+xml"
+								},
+								"description": "Placeholder architecture diagram description"
+							}
+						]
+					},
+					"release_notes_url": "",
+					"configuration": [
+						{
+							"key": "b",
+							"type": "string",
+							"default_value": "foobar",
+							"required": true,
+							"virtual": false
+						}
+					],
+					"terraform_version": "1.10.5",
+					"outputs": [],
+					"scripts": [],
+					"change_notices": {}
+				}
+			]
+		}
+	]
+}
